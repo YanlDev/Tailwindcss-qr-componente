@@ -1,0 +1,33 @@
+# Evita archivos específicos del sistema
+.DS_Store
+Thumbs.db
+
+# Evita configuraciones de entornos de desarrollo
+.idea/
+.vscode/
+*.log
+
+# Evita node_modules y paquetes instalados
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Evita archivos compilados
+dist/
+build/
+*.out
+*.exe
+
+# Prettier y herramientas de linting
+.prettierignore
+.eslintcache
+
+# Evita archivos relacionados a Docker o CI
+.dockerignore
+.env
+
+# Archivos temporales de sistemas operativos
+*.swp
+*.swo
+*.tmp
